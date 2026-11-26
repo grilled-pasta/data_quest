@@ -6,7 +6,7 @@
 #    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
 #                                                +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/23 19:05:47 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/23 19:24:45 by alkonsta        ###   ########.nl        #
+#    Updated: 2026/11/24 21:52:42 by alkonsta        ###   ########.nl        #
 #                                                                             #
 # *************************************************************************** #
 
@@ -14,8 +14,8 @@ import sys
 
 
 def main() -> None:
-    print("=== Command Quest ===")
     program_name, *args = sys.argv
+    print("=== Command Quest ===")
     print("Program name:", program_name)
     argc = len(args)
     if argc > 0:
