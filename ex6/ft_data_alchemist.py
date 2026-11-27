@@ -7,19 +7,18 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:49:18 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:49:22 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:28:42 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
 from random import randrange
 
-players = ["Alice", "bob", "Charlie", "dylan", "Emma", "Gregory", "john",
-           "kevin", "Liam"]
-
 
 def main() -> None:
     print("=== Game Data Alchemist ===")
 
+    players = ["Alice", "bob", "Charlie", "dylan", "Emma", "Gregory", "john",
+               "kevin", "Liam"]
     print("\nInitial list of players:", players)
 
     all_capitalized = [player.capitalize() for player in players]
@@ -29,16 +28,13 @@ def main() -> None:
     print("New list of capitalized names only:", capitalized)
 
     scores = {player: randrange(0, 1000) for player in players}
-    print("Score dict:", scores)
+    print("\nScore dict:", scores)
 
     average = sum(scores.values()) / len(scores)
     print(f"Score average is {average:.2f}")
 
-    high_scores = {
-        player: score
-        for player, score in scores.items()
-        if score > average
-    }
+    high_scores = {player: score for player, score in scores.items()
+                   if score > average}
     print("High scores", high_scores)
 
 

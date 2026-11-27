@@ -7,7 +7,7 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:48:48 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:48:53 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:22:55 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
@@ -30,19 +30,23 @@ def get_player_achievements() -> set[str]:
 
 def main() -> None:
     print("=== Achievement Tracker System ===\n")
+
     alice = get_player_achievements()
     bob = get_player_achievements()
     charlie = get_player_achievements()
     dylan = get_player_achievements()
-    all_achievements = alice.union(bob, charlie, dylan)
 
     print("Player Alice:", alice)
     print("Player Bob:", bob)
     print("Player Charlie:", charlie)
     print("Player Dylan:", dylan)
+
+    all_achievements = alice.union(bob, charlie, dylan)
     print("\nAll distinct achievements:", all_achievements)
+
     print("\nCommon achievements:",
           alice.intersection(bob, charlie, dylan))
+
     print("\nOnly Alice has:",
           alice.difference(bob, charlie, dylan))
     print("Only Bob has:",
@@ -51,6 +55,7 @@ def main() -> None:
           charlie.difference(alice, bob, dylan))
     print("Only Dylan has:",
           dylan.difference(alice, bob, charlie))
+
     print("\nAlice is missing:",
           all_achievements.difference(alice))
     print("\nBob is missing:",

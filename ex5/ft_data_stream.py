@@ -7,20 +7,20 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:49:07 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:49:13 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:27:09 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
 from collections.abc import Generator
 from random import choice
 
-actions = ["run", "eat", "sleep", "grab", "move", "climb", "swim", "release"]
-players = ["alice", "bob", "charlie", "dylan"]
-
 Event = tuple[str, str]
 
 
 def get_event() -> Generator[Event]:
+    actions = ["run", "eat", "sleep", "grab", "move", "climb", "swim",
+               "release"]
+    players = ["alice", "bob", "charlie", "dylan"]
     yield (choice(players), choice(actions))
 
 

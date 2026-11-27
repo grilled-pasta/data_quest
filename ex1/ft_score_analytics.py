@@ -7,7 +7,7 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:48:22 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:48:32 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:13:55 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
@@ -46,16 +46,16 @@ class GameStats(list[int]):
         print("=" * 40)
         i = 1
         for score in self:
-            print(f" PLAYER {i:<15}{score:>16}")
+            print(f" PLAYER {i:.<15}{score:.>16}")
             i += 1
         print()
-        print(f" {'TOTAL PLAYERS':<22}{self.players:>16}")
-        print(f" {'TOTAL SCORE':<22}{self.score:>16}")
-        print(f" {'AVERAGE SCORE':<22}{self.average:>16.2f}")
+        print(f" {'TOTAL PLAYERS':.<22}{self.players:.>16}")
+        print(f" {'TOTAL SCORE':.<22}{self.score:.>16}")
+        print(f" {'AVERAGE SCORE':.<22}{self.average:.>16.2f}")
         print()
-        print(f" {'HIGH SCORE':<22}{self.high:>16}")
-        print(f" {'LOW SCORE':<22}{self.low:>16}")
-        print(f" {'SCORE RANGE':<22}{self.score_range:>16}")
+        print(f" {'HIGH SCORE':.<22}{self.high:.>16}")
+        print(f" {'LOW SCORE':.<22}{self.low:.>16}")
+        print(f" {'SCORE RANGE':.<22}{self.score_range:.>16}")
         print("=" * 40)
 
 

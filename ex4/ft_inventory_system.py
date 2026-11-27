@@ -7,7 +7,7 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:48:57 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:49:02 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:25:54 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
@@ -25,18 +25,16 @@ def parse_inventory() -> dict[str, int]:
         try:
             params = arg.split(":")
             if len(params) != 2:
-                raise InventoryError(f"Error - invalid parameter '{arg}'")
+                raise InventoryError(f"Error - invalid parameter {arg!r}")
             item = params[0]
             if not item:
-                raise InventoryError(f"Error - invalid parameter '{item}'")
+                raise InventoryError(f"Error - invalid parameter {item!r}")
             if item in inventory:
-                raise InventoryError(f"Redundant item '{item}' - discarding")
+                raise InventoryError(f"Redundant item {item!r} - discarding")
             try:
                 quantity = int(params[1])
-                if quantity <= 0:
-                    raise InventoryError(f"Error - invalid parameter '{item}'")
             except ValueError as e:
-                raise InventoryError(f"Quantity error for '{params[0]}': {e}")
+                raise InventoryError(f"Quantity error for {params[0]!r}: {e}")
             inventory[item] = quantity
         except InventoryError as e:
             print(e)
@@ -65,7 +63,7 @@ def main() -> None:
                  if quantity == max_q)
     min_k = next(item for item, quantity in inventory.items()
                  if quantity == min_q)
-    print(f"Item most abundant: {max_k} with quantity {min_k}")
+    print(f"Item most abundant: {max_k} with quantity {min_q}")
     print(f"Item least abundant: {min_k} with quantity {min_q}")
 
     key, value = next(iter(inventory.items()))

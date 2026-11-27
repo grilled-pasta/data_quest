@@ -7,7 +7,7 @@
 #    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
 #                                                    +#+                      #
 #    Created: 2026/11/27 10:48:38 by alkonsta      #+#    #+#                 #
-#    Updated: 2026/11/27 10:48:44 by alkonsta      ########   odam.nl         #
+#    Updated: 2026/11/27 11:20:39 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
@@ -40,7 +40,7 @@ def get_player_pos() -> Coordinates:
         try:
             values.append(float(coordinate.strip()))
         except ValueError as e:
-            print(f"Error on parameter '{coordinate}':", e)
+            print(f"Error on parameter {coordinate!r}:", e)
             return get_player_pos()
 
     return (values[0], values[1], values[2])
@@ -54,14 +54,15 @@ def distance(a: Coordinates, b: Coordinates = (0, 0, 0)) -> float:
 
 def main() -> None:
     print("=== Game Coordinate System ===")
-    print("Get a first set of coordinates")
+
+    print("\nGet a first set of coordinates")
     coordinates1 = get_player_pos()
     print("Got a first set tuple:", coordinates1)
     x1, y1, z1 = coordinates1
     print(f"It includes: X={x1}, Y={y1}, Z={z1}")
     print(f"Distance to center:  {distance(coordinates1):.4f}")
-    print()
-    print("Get a second set of coordinates")
+
+    print("\nGet a second set of coordinates")
     coordinates2 = get_player_pos()
     print("Distance between the 2 sets of coordinates:",
           f"{distance(coordinates1, coordinates2):.4f}")
