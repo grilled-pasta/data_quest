@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_score_analytics.py                             :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/23 19:26:47 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/23 20:54:06 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_score_analytics.py                              :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:48:22 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:48:32 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 

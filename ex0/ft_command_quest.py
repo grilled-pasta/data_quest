@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_command_quest.py                               :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/23 19:05:47 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/24 21:52:42 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_command_quest.py                                :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:47:45 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:47:50 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 

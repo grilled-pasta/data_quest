@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_inventory_system.py                            :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/24 21:27:53 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/26 01:20:49 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_inventory_system.py                             :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:48:57 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:49:02 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 

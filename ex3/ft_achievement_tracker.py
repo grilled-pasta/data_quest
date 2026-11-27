@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_achievement_tracker.py                         :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/24 19:51:50 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/24 21:27:34 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_achievement_tracker.py                          :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:48:48 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:48:53 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 

@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_data_alchemist.py                              :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/26 01:55:07 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/26 02:13:43 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_data_alchemist.py                               :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:49:18 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:49:22 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 

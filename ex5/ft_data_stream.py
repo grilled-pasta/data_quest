@@ -1,12 +1,13 @@
+#!/usr/bin/env python
 # *************************************************************************** #
 #                                                                             #
-#                                                        :::      ::::::::    #
-#    ft_data_stream.py                                 :+:      :+:    :+:    #
-#                                                    +:+ +:+         +:+      #
-#    By: alkonsta <alkonsta@student.codam.nl>      +#+  +:+       +#+         #
-#                                                +#+#+#+#+#+   +#+            #
-#    Created: 2026/11/26 01:21:11 by alkonsta         #+#    #+#              #
-#    Updated: 2026/11/26 01:54:21 by alkonsta        ###   ########.nl        #
+#                                                         ::::::::            #
+#    ft_data_stream.py                                  :+:    :+:            #
+#                                                      +:+                    #
+#    By: alkonsta <alkonsta@student.codam.nl>         +#+                     #
+#                                                    +#+                      #
+#    Created: 2026/11/27 10:49:07 by alkonsta      #+#    #+#                 #
+#    Updated: 2026/11/27 10:49:13 by alkonsta      ########   odam.nl         #
 #                                                                             #
 # *************************************************************************** #
 
